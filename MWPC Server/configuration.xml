@@ -1,0 +1,8 @@
+﻿<MWPC>
+  <Configuration>
+    <Version>1</Version>
+    <BindAddress>0.0.0.0</BindAddress>
+    <Port>4949</Port>
+  </Configuration>
+  <PCSelections />
+</MWPC>

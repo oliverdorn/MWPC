@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MWPC Server", "MWPC Server\MWPC Server.csproj", "{ACF7D392-4DF6-49FA-BD11-1AC7C04082D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MWPC Debug", "MWPC Debug\MWPC Debug.csproj", "{44F0E2BE-9A51-4191-8E76-B6F8C92DE679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MWPC Service", "MWPC Service\MWPC Service.csproj", "{F7C8756D-D1E5-4BCF-80A1-C1C40F20EC74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MWPC Selector", "MWPC Selector\MWPC Selector.csproj", "{72ECE563-C265-44F9-AC23-D3742AC70F61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B385803E-21E1-4EA4-872E-74304555A378}"
+	ProjectSection(SolutionItems) = preProject
+		AssemblyVersionInfo.cs = AssemblyVersionInfo.cs
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MWPC Setup", "MWPC Setup\MWPC Setup.vdproj", "{E3E4B803-8BAE-40BE-984D-BEFB448720F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACF7D392-4DF6-49FA-BD11-1AC7C04082D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF7D392-4DF6-49FA-BD11-1AC7C04082D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF7D392-4DF6-49FA-BD11-1AC7C04082D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF7D392-4DF6-49FA-BD11-1AC7C04082D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F0E2BE-9A51-4191-8E76-B6F8C92DE679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F0E2BE-9A51-4191-8E76-B6F8C92DE679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F0E2BE-9A51-4191-8E76-B6F8C92DE679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F0E2BE-9A51-4191-8E76-B6F8C92DE679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C8756D-D1E5-4BCF-80A1-C1C40F20EC74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C8756D-D1E5-4BCF-80A1-C1C40F20EC74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C8756D-D1E5-4BCF-80A1-C1C40F20EC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C8756D-D1E5-4BCF-80A1-C1C40F20EC74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72ECE563-C265-44F9-AC23-D3742AC70F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72ECE563-C265-44F9-AC23-D3742AC70F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72ECE563-C265-44F9-AC23-D3742AC70F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72ECE563-C265-44F9-AC23-D3742AC70F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E4B803-8BAE-40BE-984D-BEFB448720F8}.Debug|Any CPU.ActiveCfg = Debug
+		{E3E4B803-8BAE-40BE-984D-BEFB448720F8}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.veriosmart.de:8080/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MWPC\u0020Server\\MWPC\u0020Server.csproj
+		SccProjectName1 = MWPC\u0020Server
+		SccLocalPath1 = MWPC\u0020Server
+		SccProjectUniqueName2 = MWPC\u0020Debug\\MWPC\u0020Debug.csproj
+		SccProjectName2 = MWPC\u0020Debug
+		SccLocalPath2 = MWPC\u0020Debug
+		SccProjectUniqueName3 = MWPC\u0020Service\\MWPC\u0020Service.csproj
+		SccProjectName3 = MWPC\u0020Service
+		SccLocalPath3 = MWPC\u0020Service
+		SccProjectUniqueName4 = MWPC\u0020Selector\\MWPC\u0020Selector.csproj
+		SccProjectName4 = MWPC\u0020Selector
+		SccLocalPath4 = MWPC\u0020Selector
+		SccProjectUniqueName5 = MWPC\u0020Setup\\MWPC\u0020Setup.vdproj
+		SccProjectName5 = MWPC\u0020Setup
+		SccLocalPath5 = MWPC\u0020Setup
+	EndGlobalSection
+EndGlobal
