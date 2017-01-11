@@ -49,22 +49,22 @@ Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
 		SccNumberOfProjects = 6
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://tfs.veriosmart.de:8080/defaultcollection
-		SccLocalPath0 = .
+		SccTeamFoundationServer = https://veriosmart.visualstudio.com/
+		SccProjectUniqueName0 = MWPC\u0020Setup\\MWPC\u0020Setup.vdproj
+		SccProjectName0 = MWPC\u0020Setup
+		SccLocalPath0 = MWPC\u0020Setup
 		SccProjectUniqueName1 = MWPC\u0020Server\\MWPC\u0020Server.csproj
 		SccProjectName1 = MWPC\u0020Server
 		SccLocalPath1 = MWPC\u0020Server
-		SccProjectUniqueName2 = MWPC\u0020Debug\\MWPC\u0020Debug.csproj
-		SccProjectName2 = MWPC\u0020Debug
-		SccLocalPath2 = MWPC\u0020Debug
+		SccProjectUniqueName2 = MWPC\u0020Selector\\MWPC\u0020Selector.csproj
+		SccProjectName2 = MWPC\u0020Selector
+		SccLocalPath2 = MWPC\u0020Selector
 		SccProjectUniqueName3 = MWPC\u0020Service\\MWPC\u0020Service.csproj
 		SccProjectName3 = MWPC\u0020Service
 		SccLocalPath3 = MWPC\u0020Service
-		SccProjectUniqueName4 = MWPC\u0020Selector\\MWPC\u0020Selector.csproj
-		SccProjectName4 = MWPC\u0020Selector
-		SccLocalPath4 = MWPC\u0020Selector
-		SccProjectUniqueName5 = MWPC\u0020Setup\\MWPC\u0020Setup.vdproj
-		SccProjectName5 = MWPC\u0020Setup
-		SccLocalPath5 = MWPC\u0020Setup
+		SccProjectUniqueName4 = MWPC\u0020Debug\\MWPC\u0020Debug.csproj
+		SccProjectName4 = MWPC\u0020Debug
+		SccLocalPath4 = MWPC\u0020Debug
+		SccLocalPath5 = .
 	EndGlobalSection
 EndGlobal
