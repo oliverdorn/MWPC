@@ -195,13 +195,24 @@ namespace MWPC_Selector
         /// </summary>
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (XmlHelper.SaveConfigAndPCSelections(mConfiguration, mPCSelections.ToList()))
+            if (mConfiguration == null)
             {
-                MessageBox.Show("File saved successfully!\nPlease restart the service!", "File saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                mConfiguration = XmlHelper.LoadConfig();
+            }
+            if (mConfiguration != null)
+            {
+                if (XmlHelper.SaveConfigAndPCSelections(mConfiguration, mPCSelections.ToList()))
+                {
+                    MessageBox.Show("File saved successfully!\nPlease restart the service!", "File saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("An error occured!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
             else
             {
-                MessageBox.Show("An error occured!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Unable to load default settings!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

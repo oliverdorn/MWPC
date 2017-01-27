@@ -10,5 +10,5 @@
 // Sie können alle Werte angeben oder die standardmäßigen Build- und Revisionsnummern 
 // übernehmen, indem Sie "*" eingeben:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("2016.12.19.1")]
-[assembly: AssemblyFileVersion("2016.12.19.1")]
+[assembly: AssemblyVersion("2017.01.27.1")]
+[assembly: AssemblyFileVersion("2017.01.27.1")]
